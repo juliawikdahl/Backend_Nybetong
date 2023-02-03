@@ -3,7 +3,7 @@
 namespace Backend_Nybetong.Models
 {
     [Table("dbo.tblKontaktInformation")]
-    public class MainKontaktInformationModel
+    public class ContactInformationModel
     {
         public int KIID { get; set; }
         public int FID { get; set; }

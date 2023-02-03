@@ -3,7 +3,7 @@
 namespace Backend_Nybetong.Models.MainModels
 {
     [Table("dbo.tblPlaneraLeverans")]
-    public class MainPlaneraLeveransModel
+    public class PlanDeliveryModel
     {
         public int PlaneraLeveransID { get; set; }
         public DateTime Registreringsdatum { get; set; }

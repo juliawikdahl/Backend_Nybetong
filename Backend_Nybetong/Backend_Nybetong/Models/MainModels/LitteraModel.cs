@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Backend_Nybetong.Models.MainModels
 {
     [Table("dbo.tblLittera")]
-    public class MainLitteraModel
+    public class LitteraModel
     {
         public int LID { get; set; }
         public int PID { get; set; }

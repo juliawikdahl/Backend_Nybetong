@@ -5,7 +5,7 @@ using System.Net.NetworkInformation;
 namespace Backend_Nybetong.Models.MainModels
 {
     [Table("dbo.tblProduktKatergori")]
-    public class MainProduktKategoriModel
+    public class ProductCategoryModel
     {
         public int PKID { get; set; }
         public int ProduktKategori { get; set; }

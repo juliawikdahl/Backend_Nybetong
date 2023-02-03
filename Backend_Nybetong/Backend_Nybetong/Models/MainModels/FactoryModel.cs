@@ -3,7 +3,7 @@
 namespace Backend_Nybetong.Models.MainModels
 {
     [Table("dbo.tblFabrik")]
-    public class MainFabrikModel
+    public class FactoryModel
     {
         public int FBID { get; set; }
         public string Fabrik { get; set; }

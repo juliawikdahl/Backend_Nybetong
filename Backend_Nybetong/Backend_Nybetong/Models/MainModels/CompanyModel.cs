@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Backend_Nybetong.Models.MainModels
 {
     [Table("dbo.tblFöretag")]
-    public class MainFöretagModel
+    public class CompanyModel
     {
         public int FID { get; set; }
         public int FTID { get; set; }

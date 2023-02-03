@@ -3,7 +3,7 @@
 namespace Backend_Nybetong.Models.MainModels
 {
     [Table("dbo.tblHall")]
-    public class MainHallModel
+    public class HallModel
     {
         public int HID { get; set; }
         public string Hall { get; set; }

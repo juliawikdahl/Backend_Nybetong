@@ -3,7 +3,7 @@
 namespace Backend_Nybetong.Models.MainModels
 {
     [Table("dbo.tblProjektInnehåll")]
-    public class MainProjektInnehållModel
+    public class ProjectContentModel
     {
         public int PIID { get; set; }
         public int PID { get; set; }
