@@ -1,10 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
     [Table("dbo.tblProjektInnehåll")]
     public class ProjectContentModel
     {
+        [Key]
         public int PIID { get; set; }
         public int PID { get; set; }
         public int PKID { get; set; }

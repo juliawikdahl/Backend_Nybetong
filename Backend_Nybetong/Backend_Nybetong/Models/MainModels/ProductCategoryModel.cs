@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Dynamic;
 using System.Net.NetworkInformation;
 
@@ -7,6 +8,7 @@ namespace Backend_Nybetong.Models.MainModels
     [Table("dbo.tblProduktKatergori")]
     public class ProductCategoryModel
     {
+        [Key]
         public int PKID { get; set; }
         public int ProduktKategori { get; set; }
         public string Beskrivning { get; set; }

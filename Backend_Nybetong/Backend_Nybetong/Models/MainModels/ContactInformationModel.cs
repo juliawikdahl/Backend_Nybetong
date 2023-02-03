@@ -1,10 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models
 {
     [Table("dbo.tblKontaktInformation")]
     public class ContactInformationModel
     {
+        [Key]
         public int KIID { get; set; }
         public int FID { get; set; }
         public int KKID { get; set; }

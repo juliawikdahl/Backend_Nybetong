@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
@@ -6,6 +7,7 @@ namespace Backend_Nybetong.Models.MainModels
     [Table("dbo.tblFöretag")]
     public class CompanyModel
     {
+        [Key]
         public int FID { get; set; }
         public int FTID { get; set; }
         public DateTime Registreringsdatum { get; set; }

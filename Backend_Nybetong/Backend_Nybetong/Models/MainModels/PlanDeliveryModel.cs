@@ -1,10 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
     [Table("dbo.tblPlaneraLeverans")]
     public class PlanDeliveryModel
     {
+        [Key]
         public int PlaneraLeveransID { get; set; }
         public DateTime Registreringsdatum { get; set; }
         public DateTime Leveransdatum { get; set; }

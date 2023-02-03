@@ -1,4 +1,5 @@
 ﻿using System.Collections.Specialized;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
@@ -6,6 +7,7 @@ namespace Backend_Nybetong.Models.MainModels
     [Table("dbo.tblLittera")]
     public class LitteraModel
     {
+        [Key]
         public int LID { get; set; }
         public int PID { get; set; }
         public int FBID { get; set; }

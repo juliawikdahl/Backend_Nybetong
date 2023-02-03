@@ -1,10 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
     [Table("dbo.tblProjekt")]
     public class ProjectModel
     {
+        [Key]
         public int PID { get; set; }
         public int FID { get; set; }
         public int ProjektNummer { get; set; }
