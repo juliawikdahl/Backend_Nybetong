@@ -1,5 +1,8 @@
-﻿namespace Backend_Nybetong.Models.MainModels
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Backend_Nybetong.Models.MainModels
 {
+    [Table("dbo.tblEnhet")]
     public class MainEnhetModel
     {
         public int EID { get; set; }

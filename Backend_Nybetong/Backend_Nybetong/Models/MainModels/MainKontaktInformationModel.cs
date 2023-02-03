@@ -1,5 +1,8 @@
-﻿namespace Backend_Nybetong.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Backend_Nybetong.Models
 {
+    [Table("dbo.tblKontaktInformation")]
     public class MainKontaktInformationModel
     {
         public int KIID { get; set; }

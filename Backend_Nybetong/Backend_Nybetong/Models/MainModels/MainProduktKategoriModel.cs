@@ -1,8 +1,10 @@
-﻿using System.Dynamic;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.Dynamic;
 using System.Net.NetworkInformation;
 
 namespace Backend_Nybetong.Models.MainModels
 {
+    [Table("dbo.tblProduktKatergori")]
     public class MainProduktKategoriModel
     {
         public int PKID { get; set; }

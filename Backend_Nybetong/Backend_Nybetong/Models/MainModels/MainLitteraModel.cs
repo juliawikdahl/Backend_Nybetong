@@ -1,7 +1,9 @@
 ﻿using System.Collections.Specialized;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
+    [Table("dbo.tblLittera")]
     public class MainLitteraModel
     {
         public int LID { get; set; }
