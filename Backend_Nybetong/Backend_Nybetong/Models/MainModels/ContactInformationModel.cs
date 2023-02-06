@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models
 {
-    [Table("dbo.tblKontaktInformation")]
+    [Table("tblKontaktInformation")]
     public class ContactInformationModel
     {
         [Key]

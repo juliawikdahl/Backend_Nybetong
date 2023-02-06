@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
-    [Table("dbo.tblProjekt")]
+    [Table("tblProjekt")]
     public class ProjectModel
     {
         [Key]
@@ -11,12 +11,12 @@ namespace Backend_Nybetong.Models.MainModels
         public int FID { get; set; }
         public int ProjektNummer { get; set; }
         public string Projekt { get; set; }
-        public string StartVecka { get; set; }
-        public string StoppVecka { get; set; }
+        public string Startvecka { get; set; }
+        public string Stoppvecka { get; set; }
         public string Levadress { get; set; }
         public string LevPostAdress { get; set; }
         public int KundKIID { get; set; }
-        public int KundKonstruktörKIID { get; set; }
+        public int KonstruktörKIID { get; set; }
         public int MontörKIID { get; set; }
         public bool Avslutat { get; set; }
         public bool Eldosor { get; set; }
@@ -25,6 +25,8 @@ namespace Backend_Nybetong.Models.MainModels
         public bool Comax { get; set; }
         public bool Övrigt { get; set; }
         public string Info { get; set; }
+
+      
 
 
     }

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
-    [Table("dbo.tblProjektInnehåll")]
+    [Table("tblProjektInnehåll")]
     public class ProjectContentModel
     {
         [Key]
@@ -15,7 +15,8 @@ namespace Backend_Nybetong.Models.MainModels
         public int Försäljningspris { get; set; }
         public int Fabrikspris { get; set; }
         public int TotalMängd { get; set; }
-        public int KategoriTyp { get; set; }
-        public int TidsÅtgång { get; set; }
+        public string KategoriTyp { get; set; }
+        public decimal TidsÅtgång { get; set; }
+
     }
 }

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
-    [Table("dbo.tblFöretag")]
+    [Table("tblFöretag")]
     public class CompanyModel
     {
         [Key]
@@ -18,6 +18,11 @@ namespace Backend_Nybetong.Models.MainModels
         public string Fax { get; set; }
         public string Infomejl { get; set; }
         public bool Aktiv { get; set; }
+
+      
+
+
+
 
     }
 }

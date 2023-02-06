@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
-    [Table("dbo.tblFabrik")]
+    [Table("tblFabrik")]
     public class FactoryModel
     {
         [Key]
@@ -11,6 +11,8 @@ namespace Backend_Nybetong.Models.MainModels
         public string Fabrik { get; set; }
         public string LagerPlats { get; set; }
         public bool Aktiv { get; set; }
-        public string NybetongFabrik { get; set; }
+        public bool NybetongFabrik { get; set; }
+
+
     }
 }

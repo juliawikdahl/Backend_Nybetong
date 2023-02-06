@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
-    [Table("dbo.tblPlaneraLeverans")]
+    [Table("tblPlaneraLeverans")]
     public class PlanDeliveryModel
     {
         [Key]
@@ -16,7 +16,8 @@ namespace Backend_Nybetong.Models.MainModels
         public int Kontaktuppgifter { get; set; }
         public DateTime Lastningsdatum { get; set; }
         public string Lastningstid { get; set; }
-        public string GrovPlanering { get; set; }
-        public int Referens { get; set; }
+        public string Grovplanering { get; set; }
+        //public int Vår referens { get; set; }
+
     }
 }

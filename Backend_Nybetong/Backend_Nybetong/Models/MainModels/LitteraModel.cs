@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
-    [Table("dbo.tblLittera")]
+    [Table("tblLittera")]
     public class LitteraModel
     {
         [Key]
@@ -22,9 +22,10 @@ namespace Backend_Nybetong.Models.MainModels
         public int BTID3 { get; set; }
         public DateTime Regdatum { get; set; }
         public string Etapp { get; set; }
-        public string LitteralID { get; set; }
+        public string LitteraID { get; set; }
         public int Längd { get; set; }
         public int Bredd { get; set; }
+        public int Tjocklek { get; set; }
         public int Höjd { get; set; }
         public decimal Vikt { get; set; }
         public decimal Gjut1 { get; set; }
@@ -33,7 +34,7 @@ namespace Backend_Nybetong.Models.MainModels
         public decimal Gjut3 { get; set; }
         public int Antaleldosor { get; set; }
         public int Isolering { get; set; }
-        public bool Inväntangjuntningsgods { get; set; }
+        //public bool Inväntaningjuntningsgods { get; set; }
         public string Anm { get; set; }
         public bool BeställBetong { get; set; }
         public bool Kvalitetssäkrad { get; set; }
@@ -41,7 +42,7 @@ namespace Backend_Nybetong.Models.MainModels
         public int PIID { get; set; }
         public int AntalGjut { get; set; }
         public bool Kundkostnad { get; set; }
-        public int Antalräckefästen { get; set; }
+        public int AntalRäckefästen { get; set; }
         public int AntalVent { get; set; }
         public int AntalComax { get; set; }
         public int AntalÖvrigt { get; set; }

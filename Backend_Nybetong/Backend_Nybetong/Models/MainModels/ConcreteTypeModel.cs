@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
-    [Table("dbo.tblBetongTyp")]
+    [Table("tblBetongTyp")]
     public class ConcreteTypeModel
     {
         [Key]

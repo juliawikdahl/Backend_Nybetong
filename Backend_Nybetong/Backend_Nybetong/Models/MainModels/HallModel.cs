@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Backend_Nybetong.Models.MainModels
 {
-    [Table("dbo.tblHall")]
+    [Table("tblHall")]
     public class HallModel
     {
         [Key]
@@ -13,5 +13,7 @@ namespace Backend_Nybetong.Models.MainModels
         public bool PåFabriken { get; set; }
         public bool Aktiv { get; set; }
 
+
+        
     }
 }

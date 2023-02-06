@@ -5,15 +5,16 @@ using System.Net.NetworkInformation;
 
 namespace Backend_Nybetong.Models.MainModels
 {
-    [Table("dbo.tblProduktKatergori")]
+    [Table("tblProduktKatergori")]
     public class ProductCategoryModel
     {
         [Key]
         public int PKID { get; set; }
-        public int ProduktKategori { get; set; }
+        public string Produktkatergori { get; set; }
         public string Beskrivning { get; set; }
         public string AntalGjut { get; set; }
         public int EID { get; set; }
-        public int Typ { get; set; }
+        public string Typ { get; set; }
+    
     }
 }

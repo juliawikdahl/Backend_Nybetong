@@ -20,7 +20,7 @@ namespace Backend_Nybetong.Data
         public DbSet<HallModel> Halls { get; set; }
         public DbSet<LitteraModel> Litteras { get; set; }
         public DbSet<PlanDeliveryModel> PlanDeliveries { get; set; }
-        public DbSet<ProductCategoryModel> productCategories{ get; set; }
+        public DbSet<ProductCategoryModel> ProductCategories{ get; set; }
         public DbSet<ProjectContentModel> ProjectContents { get; set; }
         public DbSet<ProjectModel> Projects { get; set; }
         public DbSet<RollModel> Rolls { get; set; }
